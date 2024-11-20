@@ -16,6 +16,19 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
 .container {
     max-width: 1158px;
@@ -46,6 +59,36 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 76px;
 }
 
+/* main */
+
+.title-page {
+    margin: auto;
+    text-align: center;
+}
+
+.hero-button {
+    margin: auto;
+    display: block;
+}
+
+.main-list {
+    display: flex;
+    gap: 24px;
+    padding: 120px 0;
+    }
+
+.main-item {
+    width: calc((100%- 72px)/4);
+}
+
+.advantages-title {
+    margin-bottom: 8px;
+}
+
+.team-list {
+    display: flex;
+}
+
 
 .section-title {
     font-size: 36px;
@@ -56,13 +99,10 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: capitalize
 }
 
-.logo {font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+.portfolio-list {
+ display: flex;
+ flex-wrap: wrap;
+gap: 24px;
 }
 
 .header-logo .logo-part {
@@ -120,6 +160,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .title-page {
+    padding-top: 188px;
+    padding-bottom: 48px;
+    margin: auto;
  font-weight: 700;
  font-size: 56px;
  line-height: 1.07;
@@ -204,6 +247,12 @@ background-color: #fff;
 
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.logo footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
